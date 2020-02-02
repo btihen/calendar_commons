@@ -280,9 +280,21 @@ body {
   justify-content:space-between;
   height:100vh;
 }
+.header {
+  padding:2rem 1.5rem;
+}
 .section {
   display:flex;
   flex:1 0 auto;
+}
+.weekday {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.calendar-day{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
 }
 EOF
 
@@ -372,7 +384,7 @@ cat <<"EOF" > app/views/layouts/application.html.erb
     </nav>
 
     <section class="section">
-      <div class="container">
+      <div class="container is-fluid">
         <p class="notice"><%= notice %></p>
         <p class="alert"><%= alert %></p>
         <%= yield %>
