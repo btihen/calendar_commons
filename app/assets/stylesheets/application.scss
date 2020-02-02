@@ -1,0 +1,12 @@
+// import fonts
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+// define bulma variables
+$family-primary:'Ubuntu', sans-serif;
+
+// import bulma and optionally the extensions
+@import 'bulma/bulma';
+
+
+// Import css layouts
+@import '_layout';
