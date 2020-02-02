@@ -252,6 +252,8 @@ yarn add bulma
 rm app/assets/stylesheets/application.css
 touch app/assets/stylesheets/application.scss
 cat <<"EOF">> app/assets/stylesheets/application.scss
+@charset "utf-8";
+
 // import fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto+Slab|Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
@@ -418,5 +420,5 @@ EOF
 
 Add Bulma Extensions
 ```bash
-
+yarn add bulma-extensions
 ```

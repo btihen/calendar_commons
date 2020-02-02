@@ -11,3 +11,12 @@ body {
   display:flex;
   flex:1 0 auto;
 }
+.weekday {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.calendar-day{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
